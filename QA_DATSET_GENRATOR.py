@@ -8,7 +8,7 @@ import os
 import time
 
 # Step 1: Set up API key securely
-api_key = "AIzaSyDFxACN5dl2zr8Menpn8B1FMxUgrVeytd4"
+api_key = "Gemini_API_Key"
 if not api_key:
     raise ValueError("API key for Google Generative AI not set in environment variables.")
 genai.configure(api_key=api_key)
